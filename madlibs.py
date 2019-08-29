@@ -15,4 +15,12 @@ noun3 = input("Enter a noun: ")
 
 print("It was a " + adjective + ", cold November day.")
 print("I woke up to the " + adjective2 + " smell of " + type_of_bird \
-+ " roasting in the " + room + " downstairs." )
++ " roasting in the " + room + " downstairs.")
+print("I " + verb + " down the stairs to see if I could help \
+" + verb2 + " the dinner.")
+print("My mom said, 'See if " + relative + " needs a fresh " \
++ noun + ".'")
+print("So I carried a tray of glasses full of " + liquid + \
+" into the " + verb3 + " room.")
+print("When I got there, I could'nt believe my " + body_part + "!")
+print("There were " + noun2 + " " + verb4 + " on the " + noun3 + "!")
