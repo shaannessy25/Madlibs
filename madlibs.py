@@ -1,3 +1,5 @@
+# Got this madlib from hobbylark.com
+
 adjective = input("Enter an adjective: ")
 adjective2 = input("Enter another adjective: ")
 type_of_bird = input("Enter a type of bird: ")
