@@ -12,3 +12,7 @@ body_part = input("Enter a body part: ")
 noun2 = input("Enter a plural noun: ")
 verb4 = input("Enter a verb ending with ing: ")
 noun3 = input("Enter a noun: ")
+
+print("It was a " + adjective + ", cold November day.")
+print("I woke up to the " + adjective2 + " smell of " + type_of_bird \
++ " roasting in the " + room + " downstairs." )
