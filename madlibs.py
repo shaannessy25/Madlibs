@@ -3,29 +3,27 @@
 def user_input():
     adjective = input("Enter an adjective: ")
     adjective2 = input("Enter another adjective: ")
-    type_of_bird = input("Enter a type of bird: ")
-    room = input("Enter a room: ")
+    a = [adjective, adjective2]
     verb = input("Enter a past tense verb: ")
     verb2 = input("Enter a verb: ")
-    relative = input("Enter a relatives name: ")
-    noun = input("Enter a noun: ")
-    liquid = input("Enter a type of liquid: ")
     verb3 = input("Enter a verb ending with ing: ")
-    body_part = input("Enter a body part: ")
-    noun2 = input("Enter a plural noun: ")
     verb4 = input("Enter a verb ending with ing: ")
+    v = [verb, verb2, verb3, verb4]
+    noun = input("Enter a noun: ")
+    noun2 = input("Enter a plural noun: ")
     noun3 = input("Enter a noun: ")
-    print("It was a " + adjective + ", cold November day.")
-    print("I woke up to the " + adjective2 + " smell of " + type_of_bird \
-    + " roasting in the " + room + " downstairs.")
-    print("I " + verb + " down the stairs to see if I could help \
-    " + verb2 + " the dinner.")
-    print("My mom said, 'See if " + relative + " needs a fresh " \
-    + noun + ".'")
-    print("So I carried a tray of glasses full of " + liquid + \
-    " into the " + verb3 + " room.")
-    print("When I got there, I could'nt believe my " + body_part + "!")
-    print("There were " + noun2 + " " + verb4 + " on the " + noun3 + "!")
+    n = [noun, noun2, noun3]
+    type_of_bird = input("Enter a type of bird: ")
+    room = input("Enter a room: ")
+    relative = input("Enter a relatives name: ")
+    liquid = input("Enter a type of liquid: ")
+    body_part = input("Enter a body part: ")
+    print(f'''It was a {a[0]}, cold November day. I woke up to the {a[1]}\
+ smell of {type_of_bird} roasting in the {room} downstairs. I {v[0]} down the stairs\
+ to see if I could help {v[1]} the dinner. My mom said, 'See if {relative} needs a\
+ fresh {n[0]}.' So I carried a tray of glasses full of {liquid} into the {v[2]}\
+ {room}. When I got there, I could'nt believe my {body_part}! There were {n[1]}\
+  {v[3]} on the {n[2]}! ''')
 
 
 user_input()
