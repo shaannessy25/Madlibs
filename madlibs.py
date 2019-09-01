@@ -1,4 +1,4 @@
-# Got this madlib from hobbylark.comde
+# Got this madlib from hobbylark.com
 
 def user_input():
     adjective = input("Enter an adjective: ")
@@ -21,8 +21,8 @@ def user_input():
     print(f'''It was a {a[0]}, cold November day. I woke up to the {a[1]}\
  smell of {type_of_bird} roasting in the {room} downstairs. I {v[0]} down the stairs\
  to see if I could help {v[1]} the dinner. My mom said, 'See if {relative} needs a\
- fresh {n[0]}.' So I carried a tray of glasses full of {liquid} into the {v[2]}\
- {room}. When I got there, I could'nt believe my {body_part}! There were {n[1]}\
+  fresh {n[0]}.' So I carried a tray of glasses full of {liquid} into the {v[2]}\
+  {room}. When I got there, I could'nt believe my {body_part}! There were {n[1]}\
   {v[3]} on the {n[2]}! ''')
 
 
