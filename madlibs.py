@@ -1,6 +1,7 @@
 # Got this madlib from hobbylark.com
 
 def user_input():
+    #Takes in all user inputs and stores them in a variable
     adjective = input("Enter an adjective: ")
     adjective2 = input("Enter another adjective: ")
     a = [adjective, adjective2]
@@ -18,6 +19,7 @@ def user_input():
     relative = input("Enter a relatives name: ")
     liquid = input("Enter a type of liquid: ")
     body_part = input("Enter a body part: ")
+    # prints the madlib with variables
     print(f'''It was a {a[0]}, cold November day. I woke up to the {a[1]}\
  smell of {type_of_bird} roasting in the {room} downstairs. I {v[0]} down the stairs\
  to see if I could help {v[1]} the dinner. My mom said, 'See if {relative} needs a\
